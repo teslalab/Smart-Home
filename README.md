@@ -28,7 +28,7 @@ Pesplegar información por medio de un web server o dashboard MQTT en plataforma
 
 # Ejemplos con MicroPython 
 
-Para utilizar micropython con nuestro badge visite el siguiente repositorio para mayor información  [FunPython Ecuador][FPE].
+Para utilizar micropython con nuestro Smart Home visite el siguiente repositorio para mayor información  [FunPython Ecuador][FPE].
 
 [FPE]: https://github.com/FunPythonEC/FIT_Guatemala_2019-SMART_HOME
 

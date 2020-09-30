@@ -27,7 +27,7 @@ Pesplegar información por medio de un web server o dashboard MQTT en plataforma
 
 Para utilizar micropython con nuestro badge visite el siguiente repositorio para mayor información  [FunPython Ecuador][FPE].
 
-[FPE]: https://github.com/FunPythonEC/FIT_Guatemala_2019-SMART_BADGE
+[FPE]: https://github.com/FunPythonEC/FIT_Guatemala_2019-SMART_HOME
 
 # Descripción de pines 
 
@@ -43,14 +43,28 @@ ESP32 | MMA8425QT
 SCL 22 | SCL 4
 SDA 23 | SDA 6
 
-### Matriz led 8x8 - Comunicación SPI
-ESP32 | MAX7219CWG
+### RELÉ
+ESP32 | Relé Derecha | Relé Izquierda
+--- | --- | ---
+PIN ESP32| GPIO 13 | GPIO 12
+
+
+### NEOPIXEL - Comunicación SPI
+ESP32 | PIN
 --- | ---
 5V | VCC 
 GND | GND
-MOSI 16 | DIN 1
-CS 17 | CS 12
-SCK 21 | CLK 13
+GPIO 15 | DIN
+
+### LIGHT SENSOR
+ESP32 | ALS-PT19-315C
+--- | ---
+GPIO 2 | ADC 
+
+### BUZZER
+ESP32 | BUZZER
+--- | ---
+GPIO 14 | DIN
 
 # Licencia
 

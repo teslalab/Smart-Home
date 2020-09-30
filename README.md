@@ -1,5 +1,5 @@
 # Smart Home
-![](/img/smartHomes3.PNG)
+![](/img/smartHomes3.png)
 
 
 Dispositivo diseñado para taller práctico de Internet de las Cosas aplicado a dómotica durante el FIT (Foro de Innovación Tecnológica). Evento organizado por Universidad Galileo en Guatemala. 
